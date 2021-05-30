@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap');
 html,
 body {
   padding: 0;
@@ -13,4 +14,11 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+:root{
+  --background-green: #15202B;
+  --title: #FFFFFF;
+  --text: #9dafbd;
+  --background-light: #192734;
 }
