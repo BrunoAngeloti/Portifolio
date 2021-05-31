@@ -4,7 +4,7 @@ export function Imagem(){
     return(
         <div className={styles.container}>
             <svg width="900" height="479" viewBox="0 0 900 479" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="undraw_programming_2svr 1" clip-path="url(#clip0)">
+<g id="undraw_programming_2svr 1" clipPath="url(#clip0)">
 <path id="Vector" d="M199.305 229.754H182.883V279.588H199.305V229.754Z" fill="#3F3D56"/>
 <path id="Vector_2" d="M641.241 227.161H624.819V279.882H641.241V227.161Z" fill="#3F3D56"/>
 <path id="Vector_3" d="M746 462.856V477L616.5 478.5L615.1 478.527L563.692 478.982L562.5 479H547.449H547L454.24 477.48L302.524 478.959H302.394L263.82 479.34L263.405 479.349L92 481V467.392L132.303 441.99L213.167 441.282L214.895 441.273L215.465 441.264L217.193 441.237L256.018 440.901L257.755 440.892L258.308 440.883L260.036 440.874L272.485 440.765L272.813 440.756L303.526 440.484H303.777L543.433 438.361L549.299 438.315H549.886L554.362 438.27L586.889 437.989L588.617 437.962L590.215 437.944H591.044L601.161 437.862L603.165 437.835L605.852 437.816L614.276 437.735L627.641 437.617L629.369 437.599L632.375 437.581H632.937L697.481 437L746 462.856Z" fill="#65617D"/>
@@ -30,7 +30,7 @@ export function Imagem(){
 <path id="Vector_23" d="M329.596 269.969V415.342C329.586 416.229 329.235 417.079 328.615 417.714C327.996 418.35 327.156 418.723 326.269 418.756L160.628 423.164H160.585C159.683 423.153 158.821 422.789 158.183 422.152C157.545 421.514 157.182 420.652 157.171 419.75V269.969C157.182 269.067 157.545 268.205 158.183 267.567C158.821 266.929 159.683 266.566 160.585 266.555H326.182C327.084 266.566 327.946 266.929 328.584 267.567C329.222 268.205 329.585 269.067 329.596 269.969Z" fill="#65617D"/>
 <path id="Vector_24" opacity="0.1" d="M160.628 266.555V423.164H160.585C159.683 423.153 158.821 422.789 158.183 422.152C157.545 421.514 157.182 420.652 157.171 419.75V269.969C157.182 269.067 157.545 268.205 158.183 267.567C158.821 266.929 159.683 266.566 160.585 266.555H160.628Z" fill="black"/>
 <path id="Vector_25" d="M168.19 275.837H321.602V403.968L168.19 407.425V275.837Z" fill="#D4DFEC"/>
-<rect id="Rectangle 18" x="206.25" y="366.25" width="77.5" height="11.5" rx="7.25" fill="#AEAEAE" stroke="black" stroke-width="0.5"/>
+<rect id="Rectangle 18" x="206.25" y="366.25" width="77.5" height="11.5" rx="7.25" fill="#AEAEAE" stroke="black" strokeWidth="0.5"/>
 <rect className={styles.bar} id="progressBar" x="207" y="367" width="13" height="10" rx="6.5" fill="#29DE5B"/>
 <path id="Vector_26" opacity="0.1" d="M641.241 264.826H624.819V279.882H641.241V264.826Z" fill="black"/>
 <path id="Vector_27" opacity="0.1" d="M627.559 418.013V423.553L586.791 422.464V418.013H627.559Z" fill="black"/>
@@ -75,15 +75,15 @@ export function Imagem(){
 </g>
 <path className={styles.corpo} id="Corpo_6" opacity="0.1" d="M591.259 418.021C591.259 418.021 593.999 427.961 591.259 436.604C588.519 445.246 591.259 418.021 591.259 418.021Z" fill="black"/>
 <path className={styles.corpo} id="Corpo_7" opacity="0.1" d="M602.927 428.159C602.927 428.159 604.077 440.778 601.484 443.017C598.891 445.255 602.927 428.159 602.927 428.159Z" fill="black"/>
-<path id="Vector_52" d="M171.984 296.33L259.805 295.465" stroke="#83BCA9" stroke-width="2" stroke-miterlimit="10"/>
-<path id="Vector_53" d="M171.984 307.107L259.805 306.252" stroke="#83BCA9" stroke-width="2" stroke-miterlimit="10"/>
-<path id="Vector_54" d="M171.984 317.894L259.805 317.029" stroke="#83BCA9" stroke-width="2" stroke-miterlimit="10"/>
-<path id="Vector_55" d="M172 328.864L259.82 328" stroke="#83BCA9" stroke-width="2" stroke-miterlimit="10"/>
-<path id="Vector_56" d="M201 341.864L288.82 341" stroke="#83BCA9" stroke-width="2" stroke-miterlimit="10"/>
-<path id="Vector_57" d="M201 354.864L288.82 354" stroke="#83BCA9" stroke-width="2" stroke-miterlimit="10"/>
+<path id="Vector_52" d="M171.984 296.33L259.805 295.465" stroke="#83BCA9" strokeWidth="2" strokeMiterlimit="10"/>
+<path id="Vector_53" d="M171.984 307.107L259.805 306.252" stroke="#83BCA9" strokeWidth="2" strokeMiterlimit="10"/>
+<path id="Vector_54" d="M171.984 317.894L259.805 317.029" stroke="#83BCA9" strokeWidth="2" strokeMiterlimit="10"/>
+<path id="Vector_55" d="M172 328.864L259.82 328" stroke="#83BCA9" strokeWidth="2" strokeMiterlimit="10"/>
+<path id="Vector_56" d="M201 341.864L288.82 341" stroke="#83BCA9" strokeWidth="2" strokeMiterlimit="10"/>
+<path id="Vector_57" d="M201 354.864L288.82 354" stroke="#83BCA9" strokeWidth="2" strokeMiterlimit="10"/>
 <rect id="Rectangle 12" x="585" y="313" width="19" height="19" fill="#83BCA9"/>
 <rect id="Rectangle 13" x="630" y="345" width="30" height="47" fill="#83BCA9"/>
-<path className={styles.mouse} id="mouse" d="M597 319V329.5L599.5 327.2L601.5 331.5L603 330.8L601 326.5L604 326L597 319Z" fill="white" stroke="black" stroke-width="0.5"/>
+<path className={styles.mouse} id="mouse" d="M597 319V329.5L599.5 327.2L601.5 331.5L603 330.8L601 326.5L604 326L597 319Z" fill="white" stroke="black" strokeWidth="0.5"/>
 </g>
 <defs>
 <clipPath id="clip0">
