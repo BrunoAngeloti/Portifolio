@@ -1,0 +1,114 @@
+.container svg {
+    margin-bottom: 4rem;
+    width: 100%;
+   
+}
+
+.container {
+    height: 100%;
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.mouse{
+    animation: mouse 5s infinite ease-in-out;
+ 
+}
+.mao{
+    animation: mao 5s infinite ease-in-out;
+  
+}
+
+.nuca{
+    animation: nuca 2s infinite ease-in-out alternate;
+    transform-origin: center;
+ 
+}
+.cabelo{
+    animation: cabelo 1s infinite ease-in-out alternate;
+    transform-origin: center;
+  
+}
+
+.teste{
+    animation: teste 1s infinite ease-in-out alternate;
+    transform-origin: center;
+}
+  
+@keyframes mouse {
+    0%{
+        transform: translateX(0px);
+       
+        
+    }
+    25%{
+        transform: translateX(-65px);
+              
+    }
+    50%{
+        transform: translateY(-30px);
+        
+    }
+    75%{
+        transform: translateX(65px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+@keyframes mao {
+    0%{
+        transform: translateX(0px);
+       
+        
+    }
+    25%{
+        transform: translateX(-20px);
+              
+    }
+    50%{
+        transform: translateX(0px);
+        
+    }
+    75%{
+        transform: translateX(5px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+    
+}
+
+@keyframes nuca {
+    to{
+        transform: rotateZ(0deg); 
+    }
+    from{
+        transform: rotateZ(2deg); 
+    }
+}
+
+@keyframes teste {
+    to{
+        transform: rotateZ(0deg); 
+    }
+    from{
+        transform: rotateZ(2deg); 
+    }
+}
+
+@keyframes cabelo {
+    to{
+        transform: rotateZ(0deg); 
+    }
+    from{
+        transform: rotateZ(2deg); 
+    }
+}
+  
+  
