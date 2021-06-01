@@ -23,7 +23,7 @@
 
 .header h3{
   color: var(--title);
-  font-size: 1.8vw;
+  font-size: 1.7rem;
   font-weight: 500;
   font-family: 'Oswald', sans-serif;
   display: inline-block;
@@ -57,6 +57,8 @@
   flex-direction: row; 
   width: 100%;  
   height: 90vh;
+  padding-bottom: 60px;
+ 
 }
 
 .content {
@@ -67,11 +69,12 @@
   height: 100%;
   width: 100%;
  
+ 
 }
 
 .content h1{
   color: var(--title);
-  font-size: 5vw;
+  font-size: 4rem;
   font-weight: 500;
   font-family: 'Oswald', sans-serif;
   text-align: center;
@@ -80,7 +83,7 @@
 
 .content h2{
   color: var(--text);
-  font-size: 2vw;
+  font-size: 2rem;
   font-weight: 500;
   font-family: 'Oswald', sans-serif;
   margin: 0;
@@ -90,7 +93,7 @@
 
 .image {
   height: 100%;
-  width: 100%;
+  width: 80%;
   
   display: flex;
   align-items: center;
@@ -143,8 +146,8 @@
   .header {
     justify-content: center;
   }
-  .header h3{
-    font-size: 5vw;
+  .image {
+    width: 100%;
   }
   
 }
@@ -154,9 +157,6 @@
     font-size: 5rem; 
   }
 
-  .header h3{
-    font-size: 7vw;
-  }
 
   .content h2{   
     font-size: 1.8rem; 
@@ -185,6 +185,48 @@
     font-size: 1.5rem; 
     max-width: 65%; 
   }
+}
+
+
+
+
+
+
+
+
+.mouse {
+	display: block;
+	width: 22px;
+	height: 40px;
+	border-radius: 20px;
+  padding: 0;
+	border: 3px solid var(--title);
+	text-align: center;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	bottom: 20px;
+	margin: 0 auto;
+}
+
+.mouse::before {
+	content: '';
+	display: inline-block;
+	width: 4px;
+	height: 4px;
+	position: relative;
+	border-radius: 4px;
+	background: var(--title);
+  animation: mouse 1s infinite ease-in-out;
+}
+
+@keyframes mouse {
+	from {
+		top: -5px;
+	}
+  to {
+		top: 6px;
+	}
 }
 
 

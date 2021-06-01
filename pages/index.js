@@ -4,6 +4,7 @@ import { CardAbout } from '../components/CardAbout'
 import { Imagem } from '../components/Imagem/index'
 import styles from '../styles/Home.module.css'
 
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -36,9 +37,9 @@ export default function Home() {
           <h2>LINGUAGENS</h2>
           <h2>TECNOLOGIAS</h2>
         </div>
-      </div>*/}
-      
-      
+  </div>*/}
+         <span className={styles.mouse}></span>
     </div>
+      
   )
 }
