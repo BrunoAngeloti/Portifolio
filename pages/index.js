@@ -20,14 +20,14 @@ export default function Home() {
       <div className={styles.home}>
         <div className={styles.content}>
           <h1>BRUNO ANGELOTI</h1>
-          <h2>Estudante de engenharia de computação - UFES</h2>
+          <h2>Desenvolvedor Frontend e mobile</h2>
         </div>
         <div className={styles.image}>
           <Imagem />
         </div>   
-      </div>
+      </div>  
 
-      <div className={styles.about}>
+      {/*<div className={styles.about}>
         <div className={styles.card}>
           <CardAbout />
         </div>
@@ -36,7 +36,7 @@ export default function Home() {
           <h2>LINGUAGENS</h2>
           <h2>TECNOLOGIAS</h2>
         </div>
-      </div>
+      </div>*/}
       
       
     </div>
