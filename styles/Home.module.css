@@ -135,16 +135,16 @@
     flex-direction: column;
   }
   .content h1 {
-    font-size: 7vw;
+    font-size: 8vw;
   }
   .content h2 {
-    font-size: 4vw;
+    font-size: 5vw;
   }
   .header {
     justify-content: center;
   }
   .header h3{
-    font-size: 3vw;
+    font-size: 5vw;
   }
   
 }
@@ -152,6 +152,10 @@
   
   .content h1{
     font-size: 5rem; 
+  }
+
+  .header h3{
+    font-size: 7vw;
   }
 
   .content h2{   
