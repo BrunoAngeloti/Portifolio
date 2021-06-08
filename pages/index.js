@@ -14,7 +14,7 @@ export default function Home() {
   }, [])
   
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Bruno Angeloti</title>
         <meta name="description" content="Site do Bruno Angeloti Pires" />
