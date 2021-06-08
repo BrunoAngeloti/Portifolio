@@ -15,7 +15,7 @@ export function FirstPage(){
 
             <div className={styles.home}>
                 <div data-aos="fade-right" className={styles.content}>
-                    <h1>BRUNO <div className={styles.sobrenome}>ANGELOTI</div></h1>
+                    <h1>BRUNO ANGELOTI</h1>
                     <h2>Desenvolvedor Frontend e mobile</h2>
                 </div>
                 <div data-aos="fade-right" className={styles.image}>
