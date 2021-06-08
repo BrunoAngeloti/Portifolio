@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: space-around;
     width: 60%;
+    height: 100%;
     padding: 30px 60px 20px 60px;
     box-shadow: inset 4px 4px 10px black;
     border-radius: 20px;
@@ -12,15 +13,16 @@
 }
 
 .container img {
-    width: 200px;
+    width: 50%;
     border-radius: 50%;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.25);
     margin-bottom: 10px;
+  
 }
 
 .container p{
     color: var(--text);
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-weight: 400;
     font-family: 'Oswald', sans-serif;
     margin: 0;
@@ -30,7 +32,7 @@
 
 .container h1 {
     color: var(--titleTwo);
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 500;
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -47,7 +49,7 @@
 }
 
 .socialMidias img{
-    width: 45px;
+    width: 2.3vw;
     transition: 0.3s;
     margin: 30px 20px 20px 20px;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.25);
