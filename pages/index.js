@@ -5,8 +5,8 @@ import styles from '../styles/Home.module.css'
 
 import Aos from 'aos'
 import "aos/dist/aos.css"
-import { FirstPage } from '../components/FirstPage'
-
+import { FirstPage } from '../containers/FirstPage'
+import { Header } from '../containers/Header'
 
 export default function Home() {
   useEffect(() => {
@@ -19,6 +19,7 @@ export default function Home() {
         <title>Bruno Angeloti</title>
         <meta name="description" content="Site do Bruno Angeloti Pires" />
       </Head>
+      <Header />
       <FirstPage />
 
       {/*<div className={styles.about}>
