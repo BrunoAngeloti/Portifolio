@@ -28,10 +28,9 @@
 .corpo{
     animation: corpo 2s infinite alternate;
 }
-
-.bar{
-    animation: bar 10s infinite ease-in-out;
-   
+.fumaca{
+    animation: fumaca 4s infinite ease-in-out;
+    transform-origin: center;
 }
 
 @keyframes corpo {
@@ -43,12 +42,12 @@
     }
 }
 
-@keyframes bar {
+@keyframes fumaca {
     to{
-        width: 75px;
+        transform: translateY(-10px);  
     }
     from{
-        width: 13px;
+        transform: translateY(35px);  
     }
 }
   

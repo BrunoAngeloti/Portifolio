@@ -1,49 +1,38 @@
 .container{
-  position: relative;
   background-color: var(--background-green) ;
 }
 
 .home {
   max-width: 1281px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   height: 90vh;
   overflow: hidden;
   width: 100%;
-  padding: 0px 50px;
+  padding: 0px 50px 0px 50px;
+  
+  
 }
 
 @media screen and (max-width: 1024px) {
-  .container {
-    padding: 20px;
+  .home{
+    height: 90vh;
+    
   }
 }
   
 .content {
-  width: 60%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;  
+  width: 50%;
+  flex-direction: column;  
+  
 }
 
 @media screen and (max-width: 1024px) {
   .content {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     text-align: center;
     padding: 0px;
@@ -66,25 +55,18 @@
   font-family: 'Oswald', sans-serif;
   margin: 0;
   text-align: center;
+ 
 }
   
 .image {
-  width: 40%;
-  height: 100vh;
-}
-
-@media screen and (max-width: 1024px) {
-  .image {
-    display: none;
-  }
+  width: 50%;
+  
 }
 
 @media (max-width:900px) {
     .home {
       flex-direction: column;
-    }
-    .header img {
-      display: none;
+      justify-content: center;
     }
     .content h1 {
       font-size: 8vw;
@@ -92,11 +74,9 @@
     .content h2 {
       font-size: 5vw;
     }
-    .header {
-      justify-content: center;
-    }
     .image {
       width: 100%;
+      
     }
     .buttons{
         justify-content: center;
@@ -116,7 +96,7 @@
     } 
     .content h2{   
       font-size: 1.8rem; 
-      max-width: 70%; 
+       
     }
   }
   
@@ -127,8 +107,8 @@
     }
   
     .content h2{   
-      font-size: 1.8rem; 
-      max-width: 60%; 
+      font-size: 1.5rem; 
+      
     }
     .header{
         width: 100%;
@@ -148,6 +128,6 @@
   
     .content h2{   
       font-size: 1.5rem; 
-      max-width: 65%; 
+      
     }
   }
