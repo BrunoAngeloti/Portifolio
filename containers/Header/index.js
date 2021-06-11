@@ -4,6 +4,13 @@ import styles from '../../styles/containers/Header.module.css';
 export function Header(){
     const [menu, setMenu] = useState(false);
 
+    function scroll(){
+        window.scrollTo({
+            top: window.innerHeight,
+            behavior: 'smooth',
+        });
+    }
+
     return(
         <div className={styles.container}>
             <div className={styles.header}>
@@ -16,14 +23,14 @@ export function Header(){
                 </div>
                     
                 <div className={styles.buttons}>
-                    <h3 data-aos="fade-right">SOBRE</h3>
+                    <h3 onClick={scroll} data-aos="fade-right">SOBRE</h3>
                     <h3 data-aos="fade-right">PROJETOS</h3>
                 </div>
             </div>
             {menu && 
                 <div data-aos="fade-right" data-aos-easing="linear"
                 data-aos-duration="1000" className={styles.buttonsMobile}>
-                    <h3>SOBRE</h3>
+                    <h3 onClick={scroll}>SOBRE</h3>
                     <h3>PROJETOS</h3>
                 </div>
             }

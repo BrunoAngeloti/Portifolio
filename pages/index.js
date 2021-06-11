@@ -1,12 +1,13 @@
 import Head from 'next/head'
 import { useEffect } from 'react'
-import { CardAbout } from '../components/CardAbout'
 import styles from '../styles/Home.module.css'
 
 import Aos from 'aos'
 import "aos/dist/aos.css"
 import { FirstPage } from '../containers/FirstPage'
 import { Header } from '../containers/Header'
+import { AboutMe } from '../containers/AboutMe'
+import { ScrollIndicator } from '../components/ScrollIndicator'
 
 export default function Home() {
   useEffect(() => {
@@ -21,19 +22,10 @@ export default function Home() {
       </Head>
       <Header />
       <FirstPage />
+      <AboutMe />
 
-      {/*<div className={styles.about}>
-        <div className={styles.card}>
-          <CardAbout />
-        </div>
-        
-        <div className={styles.skills}>
-          <h2>LINGUAGENS</h2>
-          <h2>TECNOLOGIAS</h2>
-        </div>
-      </div>*/}
 
-      <span className={styles.mouse}></span>
+      <ScrollIndicator />
     </div>
       
   )
