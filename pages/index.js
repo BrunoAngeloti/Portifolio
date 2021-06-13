@@ -7,6 +7,7 @@ import "aos/dist/aos.css"
 import { FirstPage } from '../containers/FirstPage'
 import { Header } from '../containers/Header'
 import { AboutMe } from '../containers/AboutMe'
+import { Projects } from '../containers/Projects'
 import { ScrollIndicator } from '../components/ScrollIndicator'
 
 export default function Home() {
@@ -23,7 +24,7 @@ export default function Home() {
       <Header />
       <FirstPage />
       <AboutMe />
-
+      <Projects />
 
       <ScrollIndicator />
     </div>

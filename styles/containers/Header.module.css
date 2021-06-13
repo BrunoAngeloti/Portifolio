@@ -1,5 +1,5 @@
 .container {
-    background-color: var(--background-light) ;  
+    background-color: var(--background-light);
 }
 
 .header {
@@ -10,6 +10,7 @@
     height: 10vh;
     max-width: 1281px;
     margin: 0 auto;
+    
 }
 
 @media screen and (max-width: 1024px) {
