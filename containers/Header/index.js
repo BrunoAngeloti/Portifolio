@@ -10,6 +10,12 @@ export function Header(){
             behavior: 'smooth',
         });
     }
+    function scrollProjects(){
+        window.scrollTo({
+            top: window.innerHeight*3.5,
+            behavior: 'smooth',
+        });
+    }
 
     return(
         <div className={styles.container}>
@@ -24,14 +30,14 @@ export function Header(){
                     
                 <div className={styles.buttons}>
                     <h3 onClick={scroll} data-aos="fade-right">SOBRE</h3>
-                    <h3 data-aos="fade-right">PROJETOS</h3>
+                    <h3 onClick={scrollProjects} data-aos="fade-right">PROJETOS</h3>
                 </div>
             </div>
             {menu && 
                 <div data-aos="fade-right" data-aos-easing="linear"
                 data-aos-duration="1000" className={styles.buttonsMobile}>
                     <h3 onClick={scroll}>SOBRE</h3>
-                    <h3>PROJETOS</h3>
+                    <h3 onClick={scrollProjects}>PROJETOS</h3>
                 </div>
             }
         </div>  
