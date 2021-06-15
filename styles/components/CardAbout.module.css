@@ -84,7 +84,7 @@
     
 }
   
-@media (max-width:350px){
+@media (max-width:375px){
    .container{
     padding: 30px 15px 20px 15px;
    }
