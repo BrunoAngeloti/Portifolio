@@ -68,7 +68,6 @@
 .square:hover{
     transition: 0.3s;
     transform: translateY(-10px);
-    filter: brightness(60%);
 }
 
 .icons{
