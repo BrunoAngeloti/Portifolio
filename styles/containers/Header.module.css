@@ -1,5 +1,9 @@
 .container {
-    background-color: var(--background-light);
+    /*background-color: var(--background-light);*/
+    position:fixed;
+    width: 100%;
+    z-index: 2;
+    transition: 0.5s;
 }
 
 .header {
@@ -22,11 +26,13 @@
 .header img {
     width: 100px;
     margin-left: 2rem;
+    cursor: pointer;
 }
 
 .mobile {
     display: none;
     cursor: pointer;
+    
 }
 
 .mobile div {
@@ -36,6 +42,7 @@
     margin: 8px;
     -webkit-transition: 0.3s;
     transition: 0.3s;
+   
 }
   
 .buttons {
@@ -51,6 +58,7 @@
     align-content: center;
     text-align: center;
     width: 100%;
+    background-color: var(--background-light);
 }
 
 .buttonsMobile h3{
@@ -114,6 +122,13 @@
     }
     .mobile{
         display: block;
+    }
+    .container {
+        position:relative; 
+        background-color: var(--background-light);
+    }
+    .header {
+        background-color: var(--background-light);
     }
 }
 

@@ -1,9 +1,9 @@
 import styles from '../../styles/containers/Projects.module.css'
 import { CardProject } from '../../components/CardProject'
 
-export function Projects(){
+export function Projects(props){
     return(
-        <div className={styles.container}>
+        <div ref={props.referencia} className={styles.container}>
             <div className={styles.projects}> 
                 <div className={styles.header}>
                     <h1 data-aos="fade-right">MEUS PROJETOS</h1>

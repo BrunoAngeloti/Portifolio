@@ -1,9 +1,9 @@
 import styles from '../../styles/containers/FirstPage.module.css';
 import { Imagem } from '../../components/Imagem/index'
 
-export function FirstPage(){
+export function FirstPage(props){
     return(
-        <div className={styles.container}>
+        <div ref={props.referencia} className={styles.container}>
             <div className={styles.home}>
                 <div data-aos="fade-right" className={styles.content}>
                     <h1>BRUNO ANGELOTI</h1>

@@ -1,19 +1,10 @@
 import styles from '../../styles/containers/AboutMe.module.css'
 import { CardAbout } from '../../components/CardAbout'
-import { useState } from 'react'
 import { IconDev } from '../../components/IconDev';
 
-export function AboutMe(){
-    const [icon, setIcon] = useState(false);
-    function teste(){
-        setIcon(true)
-    }
-    function teste2(){
-        setIcon(false)
-    }
-
+export function AboutMe(props){
     return(
-        <div className={styles.container}> 
+        <div ref={props.referencia} className={styles.container}> 
             <div className={styles.about}>
                 <div className={styles.card}>
                     <CardAbout />
